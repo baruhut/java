@@ -19,7 +19,7 @@ public class AirConService {
 
         //total biaya service
         int bayar = charge * number;
-        System.out.println("Perangkat AC dengan merk " + merk + " sudah " + number + " diperbaiki dengan total biaya " + bayar);
+        System.out.println("Perangkat AC dengan merk " + merk + " sudah " + number + " diperbaiki dengan total biaya perbaikan " + bayar);
 
         //Perangkat AC dengan merk [merk] sudah [number] diperbaiki dengan total [bayar]
 
