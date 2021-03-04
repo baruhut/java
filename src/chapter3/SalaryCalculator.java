@@ -12,9 +12,10 @@ public class SalaryCalculator {
     public static void main (String arg[]) {
 
         //initialize known value
-        int salary = 1000;
+
         int bonus = 250;
         int targetSales = 10;
+        int salary = 1000;
 
         //get value for the unknown
         System.out.println("berapa penjualan dalam minggu ini:");
@@ -29,4 +30,7 @@ public class SalaryCalculator {
         //output
         System.out.println("Salary untuk salespeople minggu ini: $" + salary);
     }
+
+
+
 }
