@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/chapter9/Women.java" />
+      <file url="file://$PROJECT_DIR$/src/chapter9/Mother.java" />
+      <file url="file://$PROJECT_DIR$/src/chapter9/InheritanceTesterFemale.java" />
+    </excludeFromCompile>
+  </component>
+</project>
