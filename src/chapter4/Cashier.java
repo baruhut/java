@@ -23,7 +23,7 @@ public class Cashier {
             int j = i + 1;
             System.out.println("Input harga barang " + j + ":");
             double harga = scanner.nextDouble();
-            total = total + harga;
+            total = total * harga;
         }
         scanner.close();
         System.out.println("Total harga: " + total);
