@@ -8,7 +8,7 @@ public class Employee extends Person {
     public Employee() {
         super("Angie");
 //        super();
-        System.out.println("In Employee default constructor...");
+        System.out.println("In Employee default constructor..." + usia);
     }
 
     public String getNomorKaryawan() {

@@ -3,15 +3,15 @@ package chapter9;
 public class Person {
 
     private String nama;
-    private int usia;
+    protected int usia;
     private String jenisKelamin;
 
-    //    public Person() {
-//        System.out.println("In Person default constructor...");
-//    }
-//
+    public Person() {
+        System.out.println("In Person default constructor...");
+    }
+
     public Person(String nama) {
-        System.out.println("In Person 2nd constructor. Name is set..");
+        System.out.println("In Person 2nd constructor. Name is set..to " + nama);
     }
 //
 

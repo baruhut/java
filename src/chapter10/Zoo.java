@@ -6,10 +6,13 @@ public class Zoo {
         Dog rocky = new Dog();
         rocky.fetch();
         rocky.makeSound();
+        rocky.runPace();
         feed(rocky);
 
         Animal sasha = new Dog();
         sasha.makeSound();
+        sasha.runPace();
+        ((Dog) sasha).sleepTime("sasha");
         feed(sasha);
 
         sasha = new Cat();

@@ -6,7 +6,7 @@ import java.util.Random;
 public class LotteryTicket {
 
     private static final int LENGTH = 6;
-    private static int MAX_TICKET_NUMBER = 7;
+    private static int MAX_TICKET_NUMBER = 8;
 
     public static void main(String args[]) {
         int[] varTicket = generateNumbers();
